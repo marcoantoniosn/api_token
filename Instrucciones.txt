@@ -1,0 +1,22 @@
+Comandos para Ejecutar el Proyecto
+1. Instalar dependencias:
+
+pip install flask flask-sqlalchemy psycopg2-binary python-decouple
+
+2. Crear la base de datos: Asegúrate de que la base de datos python_flask_rest_api esté creada en PostgreSQL.
+
+3. Usar el archivo .env
+   pip install python-dotenv
+
+4. Correr la aplicación:
+python run.py
+
+5. Probar la API con herramientas como Postman
+
+----------------------------------------------------
+Token dinamicos:
+pip install Flask PyJWT python-decouple
+pip install -U flask flask-jwt-extended
+
+Generar nuevos tokens desde Open Git Bash:
+curl -X POST http://localhost:5000/token
